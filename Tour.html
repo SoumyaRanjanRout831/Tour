@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: url(slider2.jpg);
+        }
+        
+        .menudropdown1 {
+            width: 100%;
+            height: 100px;
+            margin: 0px auto;
+        }
+        
+        .menudropdown1 ul {
+            padding: 0px;
+        }
+        
+        .menudropdown1 ul li {
+            float: left;
+            background-color: black;
+            color: white;
+            list-style: none;
+            height: 50px;
+            width: 200px;
+            line-height: 50px;
+            font-size: 25px;
+            text-align: center;
+            opacity: 0.6;
+        }
+        
+        .menudropdown1 ul li ul {
+            display: none;
+        }
+        
+        .menudropdown1 ul li:hover>ul {
+            display: block;
+        }
+        
+        .menudropdown1 ul li:hover {
+            background-color: #32cd32;
+            opacity: 0.9;
+        }
+        
+        .menudropdown1 ul li ul li ul {
+            position: absolute;
+            left: 410px;
+            top: 270px;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="menudropdown1">
+        <ul>
+            <li>USA
+                <ul>
+                    <li>New Work</li>
+                </ul>
+            </li>
+            <li>INDIA
+                <ul>
+                    <li>Sun Temple</li>
+                    <li>Puri</li>
+                    <li>Tajmahal</li>
+                    <li>Kanyakumari</li>
+                    <li>Dwarika
+                        <ul>
+                            <li>Ayodha</li>
+                            <li>Mathura</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>FRANCE</li>
+            <li>BRAZIL</li>
+            <li>AUSTRALIA</li>
+            <li>EGYPT</li>
+        </ul>
+    </div>
+</body>
+
+</html>
